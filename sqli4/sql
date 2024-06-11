@@ -1,0 +1,16 @@
+CREATE TABLE products (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    price REAL
+);
+
+CREATE TABLE flag (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    flag TEXT
+);
+
+-- Insert example data
+INSERT INTO products (name, price) VALUES ('Laptop', 999.99);
+INSERT INTO products (name, price) VALUES ('Smartphone', 499.99);
+INSERT INTO flag (flag) VALUES ('WAPTECTF{TOOOOO_hard_union_@ttack}');
+

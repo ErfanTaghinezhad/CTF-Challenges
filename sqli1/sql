@@ -1,0 +1,15 @@
+CREATE TABLE users (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    username TEXT NOT NULL,
+    password TEXT NOT NULL
+);
+
+CREATE TABLE flag (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    flag TEXT NOT NULL
+);
+
+INSERT INTO users (username, password) VALUES ('admin', 'admin123');
+INSERT INTO users (username, password) VALUES (user1', 'password1');
+INSERT INTO flag (flag) VALUES ('blind_sqli_success');
+
